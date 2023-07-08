@@ -8,7 +8,7 @@ class HealthInsurance( object ):
     
     def __init__( self ):
         
-        self.home_path =                        os.path.dirname(os.path.abspath(''))
+        self.home_path =                        os.path.abspath('')
         
         self.model_path =                       os.path.join(self.home_path,'models')
         self.features_path =                    os.path.join(self.model_path,'features')
